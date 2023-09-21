@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="ranjeet/css/all.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="logo of site"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1> Contact us</h1>
+
+        </section>
+        <!--------contact us ---->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d
+            3500.4668505369164!2d77.49981541456067!3d28.675678288878753!2m3!1f0!
+            2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf30885b1e2a5%3A0x9983
+            675e24c6638b!2sAKGEC%3A%20Ajay%20Kumar%20Garg%20Engineering%20College%2
+            C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1643722602067!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <img src="location.png" alt="envolope">
+                        <span>   
+                        <h5>HAPUD MERUT ROAD,AKGEC BUILDING</h5>
+                        <p>Ghaziabad Utter Pradesh</p>
+                    </span>
+                    </div>
+                    <div>
+                        <img src="phone3.png" alt="envolope">
+                        <span>
+                    <h5>+91 9838692186</h5>
+                    <p>Monday to friday from 10AM to 5 PM</p>
+                </span>
+                    </div>
+                    <div>
+                        <img src="envolope.png" alt="envolope">
+                        <span>
+                        <h5>ranjeet9899yadav@gmail.com</h5>
+                        <p> E mail us your query</p>
+                    </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form actioon="formhandler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea row="8" name="message" placeholder="Message" rerquired></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <!--footer-->
+
+        <section class="footer">
+            <h4>About Us</h4>
+
+
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique voluptatum tempore corporis maxime temporibus<br> labore blanditiis dicta assumenda animi ad, esse quod fuga et iusto voluptates voluptas! Illo, architecto harum!
+            </p>
+            <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="ranjeet/font- awesome/css/font- awesome.min.css" />
+            <div class="icons">
+
+                <img src="twitter.png" alt="twy">
+                <img src="linkdin.png" alt="lnk">
+                <img src="wifi.png" alt="wifi">
+                <i class="fab fa-facebook"></i>
+
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+
+
+
+
+            </div>
+            <p>MADE BY "RANJEET YADAV" <br>its me signing off</p>
+        </section>
+        <!--javascript for toogle menu-->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+
+            function showMenu() {
+                navlinks.style.right = "0";
+            }
+
+            function hidemenu() {
+                navlinks.style.right = "-200px";
+
+            }
+        </script>
+
+</body>
+
+</html>
